@@ -2,7 +2,7 @@
 
 	$mysqli = new mysqli('localhost', 'root', 'root', 'todo');
 	//opens up database w/ correct info
-	if (mysqli->connect_error) {
+	if ($mysqli->connect_error) {
 		die('Connect Error (' . $mysqli->connect_errno . ')'
 			. $mysqli->connect_error);
 		//kills page and gives error that occurred
