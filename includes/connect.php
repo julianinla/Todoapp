@@ -9,7 +9,7 @@
 	}
 	//mysqli connect error, we want it to die and have message
 	else {
-		echo "Connection Made.";
+		//echo "Connection Made.";
 		//echoes that the connection was made
 
 	}
