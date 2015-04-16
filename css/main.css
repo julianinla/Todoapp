@@ -8,11 +8,13 @@ body {
 	color: #999;
 	background: #f1f1f1;
 }
+/* style for the body */
 
 .wrap {
 	width: 400px;
 	margin: 0 auto;
 }
+/* other box styles */
 
 .task-list {
 	width: 88%;
@@ -22,3 +24,4 @@ body {
 	margin-top: 40px;
 	padding: 22px 6%;
 }
+/* design for task list box*/
