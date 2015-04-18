@@ -4,7 +4,7 @@
 	$date = date('Y-m-d');
 	$time = date('H:i:s');
 
-	include('includes/connect.php');
+	include('connect.php');
 
 	$mysqli = new mysqli('localhost', 'root', 'root', 'todo');
 	$mysqli->query("INSERT INTO tasks VALUES ('', '$task', '$date', '$time')");
@@ -20,7 +20,7 @@
 
 	$mysqli->close();
 
-	echo '<li><span>' . $task_name . '</span><img id="' . $task_id . '" class="delete-button" width="10px" src="images/close.svg" /></li>';
+	echo ' <li> <span> ' . $task_name . ' </span> <img id="' . $task_id . '" class="delete-button" width="10px" src="images/close.svg" /></li>';
 
 
 ?>
